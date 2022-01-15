@@ -1,0 +1,43 @@
+{
+  "coord": {
+    "lon": "{{request.query.lon}}",
+    "lat": "{{request.query.lat}}"
+  },
+  "weather": [
+    {
+      "id": "{{randomValue length=5 type='NUMERIC'}}",
+      "main": "Clouds",
+      "description": "overcast clouds",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": "{{randomValue length=2 type='NUMERIC'}}",
+    "feels_like": "{{randomValue length=2 type='NUMERIC'}}",
+    "temp_min": "{{randomValue length=2 type='NUMERIC'}}",
+    "temp_max": "{{randomValue length=2 type='NUMERIC'}}",
+    "pressure": "{{randomValue length=4 type='NUMERIC'}}",
+    "humidity": "{{randomValue length=2 type='NUMERIC'}}"
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 9,
+    "deg": 300
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1642255349,
+  "sys": {
+    "type": 2,
+    "id": "{{randomValue length=6 type='NUMERIC'}}",
+    "country": "RU",
+    "sunrise": 1642229173,
+    "sunset": 1642253369
+  },
+  "timezone": 10800,
+  "id": 519690,
+  "name": "{{randomValue length=15 type='ALPHANUMERIC'}}",
+  "cod": 200
+}

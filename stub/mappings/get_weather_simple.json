@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/data/2.5/weather"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "weather_response.json",
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    }
+  }
+}
