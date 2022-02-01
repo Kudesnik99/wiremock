@@ -28,7 +28,7 @@
   "clouds": {
     "all": 100
   },
-  "dt": 1642255349,
+  "dt": "{{randomValue length=10 type='NUMERIC'}}",
   "sys": {
     "type": 2,
     "id": "{{randomValue length=6 type='NUMERIC'}}",
@@ -37,7 +37,7 @@
     "sunset": 1642253369
   },
   "timezone": 10800,
-  "id": 519690,
+  "id": "{{randomValue length=6 type='NUMERIC'}}",
   "name": "{{randomValue length=15 type='ALPHANUMERIC'}}",
   "cod": 200
 }
